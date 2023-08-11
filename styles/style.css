@@ -10,3 +10,16 @@
     justify-content: center;
     align-items: center;
 }
+.main{
+    height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    clip-path: polygon(20% 19%, 100% 0%, 90% 78%, 0% 100%);
+}
